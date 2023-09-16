@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char arr[100];
+   // cin.get(arr,100);
+   cin.getline(arr,100,'$');
+   //3 argument-delimiterin 6 line=$ sign
+   //cin.getline(arr,100)=by default /n is delimiter
+    cout<<arr<<endl;
+
+}
